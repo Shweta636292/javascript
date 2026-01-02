@@ -1,31 +1,39 @@
-const mySymbol=Symbol("id")
-const webDeveloper={
-    name:"Shweta",
-    age:18,
-    mySym:"myKey1",
-    skills:["HTML","CSS","JS","REACTJS"],
-    email:"shweta@example.com",
-    college:"Alvas Institute of Engineering and Technology",
-}
-console.log(webDeveloper)
+const tinder=new Object()
+console.log(tinder)
 
-console.log(webDeveloper.age)
-console.log(webDeveloper["skills"])
-console.log(webDeveloper[mySymbol])
+tinder.name="Tinder"
+tinder.year=2012
+tinder.available=true
+tinder.users=45000000
+tinder.features=["swipe","match","chat"]
+console.log(tinder)
 
-webDeveloper.email=1234567890
-//Object.freeze(webDeveloper)
-webDeveloper.age=19
-console.log(webDeveloper)
+const realMadrid={
+    name:"Real Madrid",
+    fullname:{
+        userfullname:{
+            firstname:"Real",
+            lastname:"Madrid"
+        }
+        
+    }
+    }
+console.log(realMadrid.fullname.userfullname.firstname)
 
-webDeveloper.greeting=function(){
-    console.log("Hello there!")
-}
+const obj1={a:10,b:20,c:30}
+const obj2={1:"one",2:"two",3:"three"}
 
-webDeveloper.greetingTwo=function(){
-    console.log('hello js user,${this.name}')
-}
-//Object.freeze(webDeveloper)
+const obj3=Object.assign({},obj1,obj2)
+console.log(obj3)
 
-console.log(webDeveloper.greeting())
-console.log(webDeveloper.greetingTwo())
+
+console.log(tinder)
+
+console.log(Object.keys(tinder))
+console.log(Object.values(tinder))
+console.log(Object.entries(tinder))
+
+console.log(tinder.hasOwnProperty("name"))
+
+
+
