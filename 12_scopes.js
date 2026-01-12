@@ -18,7 +18,7 @@ user.welcomeMessage();
 //}
 ////test()
 
-//const test=function(){
+const test=function(){
     //let userName="alice_wonder";
     //console.log(this);
 //}
