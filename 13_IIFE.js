@@ -1,4 +1,4 @@
-(function chai(){
+(fuction chai(){
     console.log(`DB is connected`);
 })();
 
