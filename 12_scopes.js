@@ -37,4 +37,4 @@ console.log(addOwo(5, 10));
 
 // Implicit return
 const addTwo = (num1, num2) => (num1 + num2);
-console.log(addTwo(5, 10));
+console.log(addTwo(6,10));
