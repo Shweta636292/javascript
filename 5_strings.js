@@ -1,5 +1,5 @@
 const name="shweta"
-const seatNumber=30
+const seatNumber=30;
 
 //console.log(name,seatNumber,"value")
 
