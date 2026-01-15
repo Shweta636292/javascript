@@ -13,7 +13,7 @@ function sayMyName(){
     console.log("s")
     console.log("s")
     console.log("s")
-    console.log("s")
+    console.log("s");
 
 }
 
