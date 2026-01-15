@@ -1,0 +1,50 @@
+//primitive
+
+//string,number,null,undefined,symbol,boolean,bigint
+
+//const score=100
+//const templerun=null
+//const linkedIn=false
+//const shweta=undefined
+
+//const id=Symbol('123')
+//const anotherId=Symbol('123')
+
+//console.log(id===anotherId)
+
+//const bigNumber=12345678989674365876n
+
+//const name =["shweta","geeta","sindhu","sneha"]
+//let myobject={
+   // name:"shweta",
+ //   sub:22
+//}
+
+//const myFunction=function(){
+  //  console.log("hello world")
+//}
+
+//console.log(typeof bigNumber)
+
+//stack(primitive) heap(non primitive)
+
+let id="shwetagejjihalli@gmail.com"
+let anotherId=id
+anotherId="sindhu@gmail.com"
+console.log(anotherId)
+
+let student1 = {
+    name:"shweta",
+    sub:22
+}
+let student2=student1
+
+student2.name="sindhu"
+
+console.log(student1.name)
+console.log(student2.name)
+
+
+
+
+
