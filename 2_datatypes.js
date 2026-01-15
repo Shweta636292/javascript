@@ -1,5 +1,5 @@
 console.log(3+3)
-console.log("datatypes")
+console.log("datatypes");
 
 let alvasAtmoodbidre=true; //boolean 
 let name="shweta" //string
