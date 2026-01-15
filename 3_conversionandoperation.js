@@ -5,7 +5,7 @@ console.log(typeof (age))
 
 let Islinkedin=Number(age)
 console.log(typeof Islinkedin)
-console.log(Islinkedin)
+console.log(Islinkedin);
 
  //33=33
  //33abc=NaN
