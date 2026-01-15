@@ -13,7 +13,7 @@
 
 //const another=myArr.join()
 //console.log(another)
-//console.log(myArr)
+//console.log(myArr);
 
 const myArr = [1, 2, 3, 4, 5];
 
