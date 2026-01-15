@@ -48,8 +48,7 @@
 
 // const arr=[2,3,34,5,6];
 // const output=arr.filter((x)=>x>4);
-// console.log(output);
-
+// console.log(output)
 
 // reduce
 const arr = [6,7,8,9,2];
