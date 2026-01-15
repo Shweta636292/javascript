@@ -11,7 +11,7 @@
 
 //getName();
 //console.log(x)
-//console.log(getname)
+//console.log(getname);
 
 //var x=7;
 
