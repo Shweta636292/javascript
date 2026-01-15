@@ -11,7 +11,7 @@ function one(){
 
     function Two(){
         const website="youtube"
-        console.log(UserName)
+        console.log(UserName);
     }
     Two()
 }
