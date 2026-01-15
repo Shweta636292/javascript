@@ -18,7 +18,7 @@ let myArray=["shweta","sindhu","sneha"]
 console.log(myArray.length)
 for(let index=0; index<myArray.length; index++){
     const element=myArray[index]
-    console.log(element);
+    console.log(element)
 }
 
 //break&continue
