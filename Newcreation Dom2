@@ -18,7 +18,7 @@
     div.style.backgroundColor="pink"
     div.innerText="shweta"
     const addText=document.createTextNode("chai aur code")
-    div.appendChild(addText)
+    div.appendChild(addText);
 
     document.body.appendChild(div)
 </script>
